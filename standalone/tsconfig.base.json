@@ -1,0 +1,19 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "strictPropertyInitialization": false,
+    "incremental": true,
+    "paths": {
+      "@qdl/qs-lib": ["./libs/api/qs-lib/src/index"]
+    }
+  },
+  "exclude": ["node_modules", "tmp", "dist"]
+}
