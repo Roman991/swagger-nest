@@ -1,0 +1,6 @@
+packages:
+  - apps/*
+  - packages/*
+nodeLinker: hoisted
+catalog:
+  typescript: 6.0.3

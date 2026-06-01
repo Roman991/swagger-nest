@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "types": ["node", "multer"],
+    "emitDecoratorMetadata": true,
+    "target": "es2021",
+    "lib": ["es2022"],
+    "moduleResolution": "NodeNext",
+
+    "skipLibCheck": true,
+
+    // "isolatedModules": true,
+    // "verbatimModuleSyntax": true,
+    "resolveJsonModule": true,
+
+    "incremental": true,
+    // Strict settings
+
+    /* Strictness */
+    "strict": true,
+    // "noUncheckedIndexedAccess": true,
+    // "noImplicitOverride": true,
+
+    "noImplicitAny": true,
+    // "noImplicitThis": true,
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": false,
+
+    "forceConsistentCasingInFileNames": true,
+
+    // "noPropertyAccessFromIndexSignature": true,
+    "noFallthroughCasesInSwitch": true,
+    // Code quality
+    // "noUnusedLocals": false, // sp-api has unused parameters, so it is disabled until it is fixed
+    "noUnusedParameters": true,
+    "noImplicitReturns": true
+  }
+}
